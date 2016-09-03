@@ -227,4 +227,9 @@ module {{cookiecutter.project_name}}
 
 );
 
+system u0 (
+     .clk_clk               (clkintop_p),
+     .reset_reset_n         (cpu_resetn)
+);
+
 endmodule
